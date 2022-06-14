@@ -1,0 +1,63 @@
+@media all and (orientation: landscape) {
+  	body {
+  		background-image: url(image/GLimg.jpg);
+  	}
+  	header, .div-image-avatar, .div-soc-text-urls{
+  		display: flex;
+  		justify-content: center;
+  		align-content: space-between;
+  		align-items: center;
+  		flex-direction: column; 		
+  	}
+  	.textHead {
+  		margin: 0px;
+  		width: 50%;
+  		color: #dc1f6f;
+  		text-align: center;
+  		font-size: 8.5vw;
+  		font-family: 'Ink Free'; 
+		src: local('Ink Free'),
+		url(fonts/InkFree.ttf); 
+  	}
+  	.div-name-image-avater{
+  		display: flex;
+  	}
+  	.div-name-text{
+  		margin: 0px;
+  		color: #dc1f6f;
+  		text-align: center;
+  		font-size: 2.5vw;
+  		font-family: 'Segoe Print'; 
+		src: local('Segoe Print'),
+		url(fonts/segoeprint.ttf); 
+  	}
+  	.img-avatar{width: 20%;}
+  	.div-soc{display: block;}
+  	.div-soc-text {
+  		margin: 0.2%;
+  		width: 50%;
+  		color: #dc1f6f;
+  		text-align: center;
+  		font-size: 2.3vw;
+  		font-family: 'Segoe Print'; 
+		src: local('Segoe Print'),
+		url(fonts/segoeprint.ttf); 
+  	}
+  	.div-soc-divforimg{
+  		display: flex;
+  		justify-content: center;
+  		align-content: space-between;
+  		align-items: center;
+  	} 	
+  	.div-soc-divforimg-vk {
+  		width: 7%;
+  	}	
+  	.div-soc-divforimg-inst {
+  		margin-left: 6%;
+  		width: 7.4%;
+  	} 	
+}
+
+@media (max-width:320px) {
+  
+}
