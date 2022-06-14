@@ -1,4 +1,4 @@
-@media all and (orientation: landscape) {
+@media all {
   	body {
   		background-image: url(image/GLimg.jpg);
   	}
@@ -58,6 +58,28 @@
   	} 	
 }
 
-@media (max-width:320px) {
-  
+@media screen and (max-width : 600px) {
+  .textHead {
+      width: 80%;
+      font-size: 17vw;
+    }
+    .div-name-text{
+      font-size: 6vw;
+      font-family: 'Segoe Print'; 
+      src: local('Segoe Print'),
+      url(fonts/segoeprint.ttf); 
+    }
+    .img-avatar{width: 45%;}
+    .div-soc{display: block;}
+    .div-soc-text {
+      width: 80%;
+      font-size: 8vw;
+    } 
+    .div-soc-divforimg-vk {
+      width: 21%;
+    } 
+    .div-soc-divforimg-inst {
+      margin-left: 6%;
+      width: 22.2%;
+    }   
 }
