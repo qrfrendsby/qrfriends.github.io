@@ -48,13 +48,21 @@
   		justify-content: center;
   		align-content: space-between;
   		align-items: center;
-  	} 	
+  	}
+    .div-soc-divforimg-a-vk {
+      text-align: center;
+      width: 7%;
+    }
+    .div-soc-divforimg-a-inst {
+      text-align: center;
+      margin-left: 6%;
+      width: 7.4%;
+    }
   	.div-soc-divforimg-vk {
-  		width: 7%;
+  		width: 100%;
   	}	
   	.div-soc-divforimg-inst {
-  		margin-left: 6%;
-  		width: 7.4%;
+  		width: 100%;
   	} 	
 }
 
@@ -75,11 +83,10 @@
       width: 80%;
       font-size: 8vw;
     } 
-    .div-soc-divforimg-vk {
+    .div-soc-divforimg-a-vk {
       width: 21%;
-    } 
-    .div-soc-divforimg-inst {
-      margin-left: 6%;
+    }
+    .div-soc-divforimg-a-inst {
       width: 22.2%;
     }   
 }
